@@ -1,0 +1,25 @@
+# MapSense Decluttering – Python Simulation
+
+This repository demonstrates a **priority-aware cartographic decluttering algorithm**
+implemented using **pure Python** (no external libraries).
+
+## 🧠 Concept
+- Roads are represented as 1D spatial features
+- High-priority roads remain fixed
+- Low-priority roads are displaced to reduce clutter
+- Output is visualized using text-based (ASCII) representation
+
+## 🗺️ Why Text-Based?
+This implementation is designed for **restricted execution environments**
+(online judges, exams, sandboxes) where external visualization libraries
+are not permitted.
+
+## 📌 Algorithm Highlights
+- Priority-based displacement
+- Before vs After comparison
+- Deterministic structure, randomized displacement
+- Cartographic generalization principles
+
+## ▶️ How to Run
+```bash
+python main.py
