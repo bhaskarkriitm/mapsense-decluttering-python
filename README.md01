@@ -20,6 +20,14 @@ are not permitted.
 - Deterministic structure, randomized displacement
 - Cartographic generalization principles
 
-## ▶️ How to Run
-```bash
 python main.py
+
+Open terminal inside the folder:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit: priority-based map decluttering simulation"
+git branch -M main
+git remote add origin https://github.com/bhaskarkriitm/mapsense-decluttering-python.git
+git push -u origin main
