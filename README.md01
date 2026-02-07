@@ -3,13 +3,14 @@
 This repository demonstrates a **priority-aware cartographic decluttering algorithm**
 implemented using **pure Python** (no external libraries).
 
-## 🧠 Concept
+Concept
 - Roads are represented as 1D spatial features
 - High-priority roads remain fixed
 - Low-priority roads are displaced to reduce clutter
 - Output is visualized using text-based (ASCII) representation
 
-## 🗺️ Why Text-Based?
+#Why Text-Based
+
 This implementation is designed for **restricted execution environments**
 (online judges, exams, sandboxes) where external visualization libraries
 are not permitted.
@@ -20,6 +21,19 @@ are not permitted.
 - Deterministic structure, randomized displacement
 - Cartographic generalization principles
 
+BEFORE (Original Map)
+--------------------
+Road  0: █
+Road  1: --
+Road  2: ---
+...
+
+AFTER (Decluttered Map)
+-----------------------
+Road  0: █
+Road  1: ----
+Road  2: -
+...
 python main.py
 
 Open terminal inside the folder:
